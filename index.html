@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone project</title>
+    <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+        
+            <nav>
+                <ul>
+                    <li class="brand"><img src="Spotify_App_Logo.svg.png" alt="logo"> <span>Spotify</span></li>
+                   
+                    <li>Home</li>
+                    <li>About</li>
+                </ul>
+   </nav>
+
+   <div class="container">
+    <div class="songlist">
+        <h1>My Playlist</h1>
+
+        <div class="songitem">
+            <img src="https://i1.sndcdn.com/artworks-nGq8biEWiLnc-0-t500x500.jpg" alt="">
+            <span class="songName"></span>
+            <span>3:58<span> <i class="fa-solid playme fa-play" id="1"></i></span></span>
+            </div>
+
+            <div class="songitem"><img src="https://i1.sndcdn.com/artworks-000627809362-vuj1wc-t500x500.jpg" alt="">
+                <span class="songName"></span>
+                <span>3:58<span> <i class="fa-solid playme fa-play" id="2"></i></span></span>
+                </div>
+                
+                
+                <div class="songitem"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNYnVU9dGWesBn_h5EOgmHPRhB2eQua521yA&s" alt="">
+                    <span class="songName"></span>
+                    <span>3:58<span> <i class="fa-solid playme  fa-play" id="3"></i></span></span>
+                    </div>
+                    
+                    
+                    <div class="songitem"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXidOPztsWpTVZSQeq1zcO5rQQUD8q3blXDA&s" alt="">
+                        <span class="songName"></span>
+                        <span>3:58<span> <i class="fa-solid playme fa-play" id="4"></i></span></span>
+                        </div> 
+                        
+                        
+                        
+                        <div class="songitem"><img src="https://i1.sndcdn.com/artworks-6977kQUX1bNZO5iy-RS7iuA-t1080x1080.jpg" alt="">
+                            <span class="songName"></span>
+                            <span>3:58<span> <i class="fa-solid playme fa-play" id="5"></i></span></span>
+                            </div> 
+                            
+                            
+                            
+                            <div class="songitem"><img src="https://i.ytimg.com/vi/-2RAq5o5pwc/maxresdefault.jpg" alt="">
+                                <span class="songName"></span>
+                                <span>3:58<span> <i class="fa-solid playme fa-play" id="6"></i></span></span>
+                                </div>
+                                
+                                
+                                
+                                <div class="songitem">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b2734718e2b124f79258be7bc452" alt="">
+            <span class="songName"></span>
+            <span>3:58<span> <i class="fa-solid playme fa-play" id="7"></i></span></span>
+            </div>
+         
+    </div>
+
+   </div>
+   <!-- main container ends here -->
+
+   <div class="bottom">
+   
+    <input type="range" name="range" id="player" min="0" value="0" max="100">
+    <div class="icons">
+        <i class="fa-solid playme fa-2x fa-backward"  id="previous"></i>
+        <i class="fa-solid playme fa-2x fa-play" id="masterplay"></i>
+        <i class="fa-solid playme fa-2x  fa-forward" id="next"></i>
+        
+ </div>
+
+
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span>
+        </div>
+
+   </div> 
+
+
+
+<script src="work.js"></script>
+
+</body>
+</html>
