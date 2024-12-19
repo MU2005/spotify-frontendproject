@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+nav img{
+    width: 55px;
+    padding: 5px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav ul li{
+    padding: 0px 15px;
+    
+}
+nav span{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 0px 4px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+} 
+
+.container{
+    background-image: url(the-weeknd-starboy-9oclki6xfg74lytx.jpg);
+    background-size: cover; /* Ensures the image covers the container */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+    height: 66vh;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 110px;
+    position: sticky;
+    bottom: 0%;
+    color: white;
+}
+#player{
+    width: 80%;
+}
+.icons{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.icons i{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.songitem{
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    width:40%;
+    justify-content: space-between;
+    margin: 10px 15px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid white;
+
+   
+
+}
+.songitem img{
+     width: 7%;
+     border-radius: 3px;
+    
+}
+.songlist h1{
+    color: white;
+   margin: 10px  15px;
+  
+}
+
+.songitem span{
+    font-weight: bold;
+}
+.songitem span i{
+cursor: pointer;
+
+}
+
+   
+ .songInfo{
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    margin-left: 128px;
+}  
+#gif{
+    opacity: 0;
+    transition: 0.8s ease;
+}
+
+
+@media (max-width:790px){
+ .songitem{
+    width: 90%;
+}
+nav img{
+    width: 30px;
+    padding: 2px;
+}
+.brand{
+    margin-right: 90px;
+}
+h1{
+    font-size: 20px;
+}
+.songInfo{
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    margin-left: 105px;
+} 
+.container{
+    background-image: url(the-weeknd-starboy-9oclki6xfg74lytx.jpg);
+    background-size: cover; /* Ensures the image covers the container */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+    height: 58vh;
+    margin: 30px 10px auto;
+    width: 100%;
+}
+}
